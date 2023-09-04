@@ -5,6 +5,7 @@
     "build": "next build"
   },
   "dependencies": {
+    "gray-matter": "^4.0.3",
     "jshint": "^2.13.6",
     "madge": "^6.1.0",
     "next": "^13.4.19",
