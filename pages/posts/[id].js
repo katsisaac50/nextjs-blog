@@ -9,8 +9,10 @@ export default function Post({ postData }) {
       {postData.id}
       <br />
       {postData.date}
+      <br />
+      <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
     </Layout>
-  )
+  );
 }
 
 export async function getStaticPaths() {
